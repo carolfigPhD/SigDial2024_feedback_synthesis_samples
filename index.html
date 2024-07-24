@@ -1,0 +1,213 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Mhm...Yeah? Okay! Evaluating the Naturalness and Communicative Function of Synthesized Feedback Responses in Spoken Dialogue</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <header>
+        <h1>Mhm...Yeah? Okay! Evaluating the Naturalness and Communicative Function of Synthesized Feedback Responses in Spoken Dialogue</h1>
+        <br>
+      </header>
+    
+    <div><b>Authors:</b> Carol Figueroa, Marcel de Korte, Magalie Ochs, Gabriel Skantze</div>
+    <div><b>Paper:</b> </div>
+
+    <div style="pading-top:16px;">
+      <h3> Abstract</h3>
+    <\div>
+    <div style="pading-top:16px;">
+      "To create conversational systems with human-like listener behavior, generating short feedback responses (e.g., “mhm”, “ah", “wow”) appropriate for their context is crucial. These responses convey their communicative function through lexical form and prosodic realization. In this paper, we transplant the prosody of feedback responses from human-human U.S. English telephone conversations to a target speaker using two synthesis techniques (TTS and signal processing). Our evaluation focuses on perceived naturalness, contextual appropriateness and preservation of communicative function. Results indicate TTS-generated feedback were perceived as more natural than signal-processing-based feedback, with no significant difference in appropriateness. However, the TTS did not consistently convey the communicative function of the original feedback."
+    <\div>
+    <br>
+      <p>Below are the descriptions of the feedback functions with their corresponding label that we have identified in the Switchboard corpus.</p>
+    
+    <table style="width:100%">
+  <tr>
+    <th>Label</th>
+    <th>Function Description</th>
+  </tr>
+  <tr>
+    <td>(C) Continue</td>
+    <td>Continue speaking. I hear you and I'm listening but not necessarily agreeing/disagreeing.</td>
+  </tr>
+  <tr>
+    <td>(U) Non-understanding</td>
+    <td>I'm uncertain I understood/heard what you said.</td>
+  </tr>
+  <tr>
+    <td>(A) Agree</td>
+    <td>I agree with what you said.</td>
+  </tr>
+  <tr>
+    <td>(D) Disagree</td>
+    <td>I doubt what you said is true. I disagree with what you said.</td>
+  </tr>
+  <tr>
+    <td>(Y) Yes</td>
+    <td>I am giving a positive response/answer to your yes/no question.</td>
+  </tr>
+  <tr>
+    <td>(N) No</td>
+    <td>I am giving a negative response/answer to your yes/no question.</td>
+  </tr>
+  <tr>
+    <td>(S) Sympathy</td>
+    <td>I'm expressing sympathy/pity/sorrow/concern/compassion to a negative statement.</td>
+  </tr>
+  <tr>
+    <td>(Ds) Disapproval</td>
+    <td>I am showing disapproval/disgust.</td>
+  </tr>
+  <tr>
+    <td>(MS) Mild Surprise</td>
+    <td>I am showing mild surprise, showing slight interest.</td>
+  </tr>
+  <tr>
+    <td>(SS) Strong Surprise</td>
+    <td>I am showing strong surprise; I am impressed.</td>
+  </tr>
+  <tr>
+    <td>(O) Other</td>
+    <td>Not a feedback. Filler, listener trying to take turn, or not enough context to determine function.</td>
+   </tr>
+   <tr>
+     <td>(?) Unknown feedback</td>
+     <td>A feedback that doesn't fit into the current labels.</td>
+    </tr>
+      
+</table>
+   <br>
+   
+<!--       <div>
+        <figure>
+        <img src="images/grounding_framework.drawio.png" alt="Labels in Grounding Framework."> 
+        <figcaption>Test.</figcaption>
+        <img src="images/valence_arousal-Page-1.drawio.png" alt="Labels in Valence-Arousal Space." width="480" height="300">
+
+        </figure>
+      </div> -->
+
+ 
+      
+      
+    <br>  
+    <div>
+      <h4>Example of (U) Non-Understanding.</h4>
+        <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw03725A_57.839125_62.902500.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>  
+    
+    <div>
+      <h4>Example of (C) Continue.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02336A_397_287000_441_046000_mhm_C.wav"></audio></td><tr>
+      </table>
+
+   </div>
+   <br>
+      
+    <div>
+      <h4>Example of (A) Agree.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02619B_281_765750_307_030000_exactly_A.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+      
+<!--     <div>
+      <h4>Example of A/C.</h4>
+    </div>
+    <br> -->
+      
+    <div>
+      <h4> Example of (D) Disagree.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02496B_35.978500_39.963125_no_D.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+    
+    <div>
+      <h4> Example of (Y) Yes.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02194B_433_100500_459_362250_yeah_Y.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+      
+    <div>
+      <h4> Example of (N) No.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02265A_272.664250_279.624125_no_N.wav"></audio></td><tr>
+      </table>
+    </div>
+    
+    <br>
+    <div>
+      <h4> Example of (S) Sympathy.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02579A_471_611875_496_607000_sy_oh.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+      
+    <div>
+      <h4> Example of (Ds) Disapproval.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02481A_316_633250_349_894250_ugh_Ds.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+      
+    <div>
+      <h4> Example of (MS) Mild Surprise.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02534A_78_987500_99_025000_hm_MS.wav"></audio></td><tr>
+      </table>
+    </div>
+     <br>
+      
+    <div>
+      <h4> Example of (SS) Strong Surprise.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02785B_58_352125_84_942000_wow_SS.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+      
+    <div>
+      <h4> Example of (O) Other.</h4>
+      <table>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02094B_126_896125_162_226750_um_O.wav"></audio></td><tr>
+<!--         <tr><td class="transcript">"This is the text."</td><tr> -->
+        <tr><td><audio controls><source src="audio/sw02594B_372_836875_402_222375_well_O.wav"></audio></td><tr>
+      </table>
+    </div>
+    <br>
+      
+      
+      
+    </div>  
+  </body>
+</html>
